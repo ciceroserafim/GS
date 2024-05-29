@@ -1,0 +1,45 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+    header{text-align: initial;
+    color: black;
+    
+    margin:  70px;
+padding: 2%;}
+
+h1{
+    color: black;
+    text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 5px;
+padding: 10px; }
+
+h2{
+    
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+  section{
+    background-position: 100px;
+  }
+  section{
+    background-position: 100px;}
+  p {
+    background-image: url('img/mar.jpg');
+    }  
+body{ 
+        
+     color: black;
+     text-align: center;
+     margin
+    }
+
+
+footer{
+color: black}
