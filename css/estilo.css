@@ -1,0 +1,90 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+.titulo{ color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+header{ margin-top: 2px;
+  background-color: #007BFF; /* Fundo azul */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;}
+  
+.menu {
+  display: inline-block;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #007BFF;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+  .botao-cadastro {  padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #092d98;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+  .botao-login {padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #092d98;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+h1{
+  color: black;
+  text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 5px;
+padding: 10px; }
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+
+p{
+    
+}  
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  color: black;
+  text-align: center;
+}
+footer.rodape{ 
+background-color: black;
+}
