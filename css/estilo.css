@@ -4,32 +4,37 @@
   font-size: 40px;
   font-weight: bold;
   margin: 0;
+  
 }
 
 
-header{ margin-top: 2px;
+header{ 
+  margin-top: -10px;
   background-color: #007BFF; 
   color: white;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;}
   
 .menu {
-  display: inline-block;
-  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 3px 5px;
   font-size: 20px;
   font-weight: bold;
   color: white;
   background-color: #007BFF;
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.7s ease, color 0.7s ease;
 
 }
 
-  .botao-cadastro {  padding: 15px 30px;
+  .botao-cadastro { 
+  
+    padding: 15px 30px;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -41,7 +46,9 @@ header{ margin-top: 2px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-  .botao-login {padding: 15px 30px;
+  .botao-login {
+  
+    padding: 15px 30px;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -72,11 +79,11 @@ p{
     
 }  
 
-body{
+body{background-image: url(../img/Sea.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  position: absolute;
+  background-position: unset;
+
   color: black;
   text-align: center;
 }

@@ -13,6 +13,7 @@ h2{font-family: Arial, sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
+
 #login {
     max-width: 320px; 
     margin: 0 auto; 
@@ -39,4 +40,10 @@ label {
     font-size: 16px; 
     transition: background-color 0.7s ease; 
     margin-top: -20px;
+}
+
+body{background-image: url(../img/azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

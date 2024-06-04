@@ -1,0 +1,48 @@
+.titulo{ font-family: Arial, sans-serif; 
+    font-size: 39px; 
+    color: #333; 
+    text-align: center; 
+    margin-top: 60px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+h2{ font-family: Arial, sans-serif; 
+    font-size: 29px; 
+    color: #333; 
+    text-align: center; 
+    margin-top: 30px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+#cadastro {max-width: 320px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 4px solid rgb(43, 43, 102); 
+    border-radius: 5px; 
+}
+
+label{display: flex;
+    margin-bottom: 7px; 
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 7px;
+}
+
+.botaof{background-color: rgb(66, 66, 154);
+    color: white; 
+    padding: 10px 25px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.7s ease; 
+    margin-top: -20px;
+}
+
+body{background-image: url(../img/azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
