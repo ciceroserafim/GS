@@ -1,16 +1,20 @@
 
-.titulo{ color: white;
+.titulo{ color: rgb(63, 136, 185);
+  background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: double;
+  border-width: 10px;
+  border-color: aliceblue;
+  border-image: url(../img/waves.jpg) 470 round;
+  box-shadow: 20px 20px rgb(135, 139, 173);
   font-size: 40px;
   font-weight: bold;
   margin: 0;
-  
 }
 
 
 header{ 
   margin-top: -10px;
-  background-color: #007BFF; 
   color: white;
   padding: 10px;
   display: flex;
