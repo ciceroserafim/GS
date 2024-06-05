@@ -25,20 +25,36 @@ label{display: flex;
     margin-bottom: 7px; 
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-nunitofamily: 
     margin-top: 7px;
+
 }
 
-.botaof{background-color: rgb(66, 66, 154);
-    color: white; 
-    padding: 10px 25px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    transition: background-color 0.7s ease; 
-    margin-top: -20px;
+input{
+    padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  outline: none;
+
+
 }
+
+.botaof{ font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d2ba1;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+.botaof:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+  }
 
 body{background-image: url(../img/azul.jpg);
     background-repeat: no-repeat;
