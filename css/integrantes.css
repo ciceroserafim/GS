@@ -81,3 +81,27 @@ body{ background-image: url(../img/peixin.jpg);
     border-left: #007BFF;
     font-size: 25px;
   }
+  
+  /* Estilos para dispositivos médios (tablets) */
+@media  (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 10px;
+    }
+  
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  }
+  
+  /* Estilos para dispositivos pequenos (smartphones) */
+  @media screen and (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+  
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+  }
