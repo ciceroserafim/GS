@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,50 +8,41 @@
 </head>
 <body>
     <header>
-    <h1 class="titulo"> Seja bem vindo a página de cadastro!</h1>
-    <h2>Ensira seus dados abaixo para concluir o cadastro.</h2>
+        <h1 class="titulo">Seja bem-vindo à página de cadastro!</h1>
+        <h2>Insira seus dados abaixo para concluir o cadastro.</h2>
     </header>
     <main>
         <form id="cadastro">
-            <label for="idName">Nome Completo</label>
-            <input type="name" id="name" name="name" required>
-            <label for="idCPF">CPF:</label>
+            <label for="name">Nome Completo</label>
+            <input type="text" id="name" name="name" required>
+            <label for="cpf">CPF:</label>
             <input type="text" id="cpf" name="cpf" placeholder="123.456.789-10" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF válido" required>
-            <label for="idPhone">Telefone:</label>
+            <label for="phone">Telefone:</label>
             <input type="tel" id="phone" name="phone" placeholder="(00) 12345-6789" pattern="\(\d{2}\) \d{5}-\d{4}" title="Digite um número de telefone válido" required>
-            <label for="idEmail">Email:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="senha">Senha:</label>
             <input type="password" id="senha" name="senha" required>
-            <button class="botaof">Enviar</button>
+            <button class="botaof" type="submit">Enviar</button>
         </form>
         <div id="message"></div>
     </main>
 
-    <Script src="cadastro.js"></Script>
+    <script src="cadastro.js"></script>
     <footer class="rodape">
-    <div>
-    <p class="texto-rodape">Nossa missão é proteger e preservar os oceanos. Junte-se a nós na luta para salvar a vida marinha e manter os oceanos limpos.</p>
-</div>
-<div class="link-rodape">
-    <nav>
-        <ul>
-            <a href=""  Saiba mais></a>
-        </ul>
-    </nav>
-</div>
-<div class="contatos-rodape">
-    <h3>Nossos contatos</h3>
-    <p>Email: ciceroserafim777@gmail.com | dudumfmonteiro@gmail.com | Eduardocorreiad@gmail.com  </p>
-    <p>Numeros de Telefone: 11(97436-8708) | 11(97083-9669) | 11(94298-7300)  </p>
-</div>
-
-<div class="copyright"> 
-    <p>&copy; 2024 Protetores do Mar. Todos os direitos reservados. </p>
-</div>
-
-</footer>
-</body>
-</html>
+        <div>
+            <p class="texto-rodape">Nossa missão é proteger e preservar os oceanos. Junte-se a nós na luta para salvar a vida marinha e manter os oceanos limpos.</p>
+        </div>
+        <div class="link-rodape">
+        </div>
+        <div class="contatos-rodape">
+            <h3>Nossos contatos</h3>
+            <p>Email: ciceroserafim777@gmail.com | dudumfmonteiro@gmail.com | Eduardocorreiad@gmail.com</p>
+            <p>Números de Telefone: 11(97436-8708) | 11(97083-9669) | 11(94298-7300)</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Protetores do Mar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

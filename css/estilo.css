@@ -25,11 +25,11 @@ header{
   display: grid;
   grid-template-columns: auto;
   padding: 3px 5px;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
   background-color: #007BFF;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 10px;
   text-decoration: none;
   transition: background-color 0.7s ease, color 0.7s ease;
