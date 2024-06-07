@@ -31,6 +31,14 @@ label {
     margin-top: 7px;
 }
 
+input{
+    padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  outline: none;
+}
+
 .botao{background-color: rgb(66, 66, 154);
     color: white; 
     padding: 10px 25px; 
@@ -47,3 +55,24 @@ body{background-image: url(../img/azul.jpg);
     background-size: cover;
     background-position: center;
 }
+
+.rodape{ position: relative;
+    top: 59px;
+    opacity: 2;
+    background-size: cover;
+    background-color: rgb(32, 125, 246);
+    color: #ddd;
+    text-align: center;
+    }
+    
+.texto-rodape{ background-color: #007BFF;
+    font-size: 20px;
+      font-weight: bolder;
+    }
+    
+.contatos-rodape{border: 5px solid rgb(79, 79, 211);
+      border-width: 4px;
+      border-right: #007BFF;
+      border-left: #007BFF;
+      font-size: 25px;
+    }

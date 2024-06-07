@@ -42,7 +42,7 @@ header{
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: #092d98;
+    background-color: #2d56d2;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -56,7 +56,7 @@ header{
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: #092d98;
+    background-color: #2d56d2;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -65,22 +65,21 @@ header{
   }
 
 h1{
-  color: black;
-  text-align: center;
+color: black;
+text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin: 5px;
 padding: 10px; }
 
 h2{
-    color: black;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
     padding: 10px;
 }
 
-p{font-size: 22px;
-    
+p{font-size: 22px; 
 }  
 
 body{background-image: url(../img/Sea.jpg);
@@ -154,7 +153,10 @@ body{background-image: url(../img/Sea.jpg);
   font-weight: bold;
 }
 
-footer{ background-size: contain;
+footer{ 
+  position: relative;
+  top: 19px;
+  background-size: contain;
 background-color: rgb(57, 130, 182);
 color: #ddd;
 

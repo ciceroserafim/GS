@@ -25,9 +25,8 @@ label{display: flex;
     margin-bottom: 7px; 
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-nunitofamily: 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 7px;
-
 }
 
 input{
@@ -36,8 +35,6 @@ input{
   border: 1px solid #ccc;
   transition: border-color 0.3s;
   outline: none;
-
-
 }
 
 .botaof{ font-weight: bold;
@@ -62,3 +59,24 @@ body{background-image: url(../img/azul.jpg);
     background-position: center;
 
 }
+
+.rodape{position: relative;
+    top: 18px;
+    opacity: 2;
+    background-size: cover;
+    background-color: rgb(32, 125, 246);
+    color: #ddd;
+    text-align: center;
+    }
+    
+.texto-rodape{ background-color: #007BFF;
+    font-size: 20px;
+      font-weight: bolder;
+    }
+    
+.contatos-rodape{border: 5px solid rgb(79, 79, 211);
+      border-width: 4px;
+      border-right: #007BFF;
+      border-left: #007BFF;
+      font-size: 25px;
+    }
