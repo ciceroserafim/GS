@@ -56,9 +56,11 @@ body{background-image: url(../img/azul.jpg);
     background-position: center;
 }
 
-.rodape{ position: relative;
-    top: 59px;
-    opacity: 2;
+.rodape{  
+    padding: 5px;
+    margin-top: 10%;
+    position: relative;
+    top: 60px;
     background-size: cover;
     background-color: rgb(32, 125, 246);
     color: #ddd;
